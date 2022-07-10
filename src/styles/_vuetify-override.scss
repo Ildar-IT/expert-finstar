@@ -1,0 +1,13 @@
+@import 'variables';
+/*
+	здесь мы переопределяем все стили vuetify которые нельзя заменить в теме
+ */
+@import '~vuetify/src/styles/styles.sass';
+
+.v-application a {
+  color: $white !important;
+  text-decoration: none !important;
+}
+.container {
+  max-width: 1400px !important;
+}
